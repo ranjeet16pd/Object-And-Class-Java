@@ -11,6 +11,29 @@ public class Car {
     int NoOfSeats;
     
     
+    
+    
+    // Methods
+    public void StartCar(){
+        System.out.println("Car is Starting , bruh  bruhh !");
+    }
+    
+    public void MoveCar(){
+        System.out.println("Car is Moving");
+        CurrentFuelInLite-=1;
+    }
+    
+    public void RefuelTheCar(int liter){
+        CurrentFuelInLite+=liter;
+    }
+    
+    
+    
+    
+    
+    
+    // Getters and Setters
+    
     public int getNoOfTyres(){
         return NoOfTyres;
     }
