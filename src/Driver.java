@@ -12,6 +12,7 @@ public class Driver {
      System.out.println(minAgeForDriving);
      
      System.out.println(thar.CurrentFuelInLite);
+     System.out.println(thar.Colour);
 
 
      thar.StartCar();

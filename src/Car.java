@@ -13,6 +13,22 @@ public class Car {
     public static  int lyfOfCar=20;
     
     
+    Car(String colour){
+        
+        NoOfSeats=4;
+        NoOfWheel=4;
+        Colour=colour;
+        MaxSpeed=135;
+        MinSpeed=10;
+        NoOfSeats=10;
+    }
+    
+    Car(){
+        this("Black");
+    }
+    
+    
+    
     public static int getLyfOfCar(){
         return lyfOfCar;
     }
