@@ -10,8 +10,12 @@ public class Car {
     float CurrentFuelInLite ;
     int NoOfSeats;
     
+    public static  int lyfOfCar=20;
     
     
+    public static int getLyfOfCar(){
+        return lyfOfCar;
+    }
     
     // Methods
     public void StartCar(){
@@ -26,9 +30,6 @@ public class Car {
     public void RefuelTheCar(int liter){
         CurrentFuelInLite+=liter;
     }
-    
-    
-    
     
     
     
